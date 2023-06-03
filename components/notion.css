@@ -1,0 +1,154 @@
+
+.notion {
+    line-height: 1.6rem;
+    overflow-wrap: break-word;
+    font-size: .9375em;
+    }
+  
+    .notion h1 {
+      @apply text-3xl font-bold mt-4 mb-2;
+    }
+  
+    .notion h2 {
+      @apply text-2xl font-bold mt-4 mb-2;
+    }
+  
+    .notion h3 {
+      @apply text-xl font-bold mt-4 mb-2;
+    }
+  
+    .notion img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .notion figure {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    .notion figcaption {
+      opacity: 0.6;
+    }
+    
+    .notion li {
+      padding-inline-start: 4px;
+      }
+    
+    .notion ol {
+      list-style-type: decimal;
+      padding-inline-start: 30px;
+      line-height: 1.6rem;
+    }
+  
+    .notion ul {
+      list-style-type: disc;
+      padding-inline-start: 30px;
+      line-height: 1.6rem;
+    }
+    
+    .back {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    
+    .bold {
+      @apply font-semibold;
+    }
+    
+    .code {
+      font-family: monospace;
+      background-color: rgb(242, 242, 242);
+      padding: 2px 4px;
+      border-radius: 2px;
+    }
+    
+    .italic {
+      font-style: italic;
+    }
+    
+    .pre {
+      background-color: rgb(242, 242, 242);
+      padding: 2px 4px;
+      margin: 20px 0;
+      line-height: 2.3;
+      border-radius: 12px;
+      overflow: auto;
+    }
+    
+    .code_block {
+      padding: 20px;
+      font-family: monospace;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .file {
+      padding: 2px 4px;
+      text-decoration: none;
+    }
+    
+    .file a {
+      color: inherit;
+    }
+    
+    .file:hover {
+      background: rgba(55, 53, 47, 0.08);
+      cursor: pointer;
+      border-radius: 2px;
+    }
+    
+    
+    .strikethrough {
+      text-decoration: line-through;
+    }
+    
+    .underline {
+      text-decoration: underline;
+    }
+    
+    .bookmark {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .table {
+      border: 1px solid currentColor;
+      border-collapse: collapse;
+    }
+    .table th {
+      border: 1px solid currentColor;
+      background-color: rgb(242, 242, 242);
+      padding: 6px 12px;
+    }
+    .table td {
+      border: 1px solid currentColor;
+      padding: 6px 12px;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    .row > div {
+      flex: 1;
+    }
+    
+    .childPage {
+      border: 1px solid currentColor;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .code,
+      .table,
+      .pre {
+        background-color: rgb(15, 8, 28);
+      }
+      .file:hover {
+        background: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+        border-radius: 2px;
+      }
+    }
